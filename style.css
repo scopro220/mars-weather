@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("mars.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.title {
+  margin: 50px 0 0 50px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  width: 500px;
+}
+
+p {
+  width: 500px;
+  margin: 25px 0 20px 50px;
+}
+
+.main-display {
+  height: 400px;
+  width: 600px;
+  margin: 35px 0 0 50px;
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 140px;
+  text-shadow: 2px 1px 4px #444444;
+}
+
+.main-sol {
+  font-weight: 900;
+  margin: 20px 0 0 0;
+  padding-bottom: 10px;
+  font-size: 2.5rem;
+}
+
+.main-mars-data {
+  margin: 20px 0 0 0;
+  padding-bottom: 10px;
+}
+
+.days-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.days {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 150px;
+  width: 135px;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.days:hover {
+  transform: scale(1.11);
+}
+
+.sol {
+  padding-bottom: 6px;
+  border-bottom: 1px solid white;
+}
+
+.main-high-temp,
+.main-low-temp {
+  margin-bottom: 10px;
+}
